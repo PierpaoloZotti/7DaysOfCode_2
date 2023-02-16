@@ -1,0 +1,68 @@
+header.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header.cabecalho h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    margin:3.875rem auto 3rem;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+  }
+  
+  input.nosubmit {
+    width: 634px;
+    height: 4.625rem;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 1.5rem 9px 40px;
+    background: url('../assets/svg/search-icon.svg') right 13px center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+
+  }
+
+  input.nosubmit::placeholder{
+    color: #8A8A8A;
+    opacity: 1;
+    font-size: 1.125rem;
+    font-weight: 500;
+    
+  }
+
+.favorite__checkbox{
+  margin: 1.875rem auto 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favorite__checkbox label{
+  font-size: 1.125rem;
+  line-height: .375rem;
+  font-weight: 600;
+  margin-top: 5px;
+
+}
+
+.fav__check{
+  width: 1rem; height: 1rem;
+  border-radius: 4px;
+  transition: box-shadow .3s;
+  background: none;
+  cursor: pointer;
+  border: 2px solid #706EA8;
+  appearance: none; -webkit-appearance: none;
+  margin-right: .75rem;
+}
+.fav__check:checked { 
+  box-shadow: inset 0 0 0 20px #9a38f7;
+}
+

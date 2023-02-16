@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/kumbh-sans');
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./main.css');
+
+
+/*Setting global variables for a cleaner code*/
+
+:root{
+  --fundo: #17162e;
+  --fundo_cards: #1D1C3B;
+  --texto_cinza: #ACACAC;
+}
+
+html{
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #fff;
+  background-color: var(--fundo);
+}
+
+
+body{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+  

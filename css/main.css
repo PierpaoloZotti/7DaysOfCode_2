@@ -1,0 +1,52 @@
+.filme__image{
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.3));
+    margin: 1.5rem 0 2.5rem 2.875rem;
+}
+
+.card__filmes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1.5rem auto;
+
+    width: 85vw;
+    background-color: var(--fundo_cards);
+    border-radius: 0.5rem;
+    box-shadow: 32.8387px 24.5482px 79px rgba(0, 0, 0, 0.15), 23.8851px 17.855px 53.2479px rgba(0, 0, 0, 0.121406), 16.6246px 12.4276px 34.4391px rgba(0, 0, 0, 0.10125), 10.9035px 8.15079px 21.3701px rgba(0, 0, 0, 0.0867188), 6.56775px 4.90965px 12.8375px rgba(0, 0, 0, 0.075), 3.46346px 2.58907px 7.6377px rgba(0, 0, 0, 0.0632813), 1.4367px 1.07399px 4.56719px rgba(0, 0, 0, 0.04875), 0.333519px 0.249318px 2.42246px rgba(0, 0, 0, 0.0285938);
+}
+.dados__filme{
+    display: flex;
+    width: 268px;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.titulo__filme{
+    width: 260px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    margin-bottom: 1.5rem;
+}
+.star, .hearth{
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+
+}
+
+.avaliacao>span{
+    margin-right: 3rem;
+}
+
+.sinapse{
+    width:592px;
+    margin-right: 2.375rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--texto_cinza);
+}

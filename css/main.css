@@ -1,9 +1,22 @@
 .filme__image{
-    width: 139px;
+    /*width: 139px;
     height: 139px;
+    border-radius: 300px;
+    filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.3));
+    margin: 1.5rem 0 2.5rem 2.875rem;*/
     border-radius: 50%;
+    
+    overflow: hidden;
+    width: 192px;
+    height: 192px;
+    background: black;
     filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.3));
     margin: 1.5rem 0 2.5rem 2.875rem;
+}
+.filme__image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .card__filmes{
@@ -33,10 +46,21 @@
     margin-bottom: 1.5rem;
 }
 .star, .hearth{
-    width: 16px;
+    width: 18px;
     height: 16px;
-    margin-right: 0.5rem;
+    margin-right: 0.6rem;
 
+}
+.hearth{
+    background-image:url(../assets/svg/Heart-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hearthfilled{
+    background-image:url(../assets/svg/Heart-icon-filled.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .avaliacao>span{
